@@ -1,64 +1,225 @@
-<!DOCTYPE html>
-<html lang="es">
-	<head>
-		<meta charset="utf-8" />
-        <meta name="description" content="Repositorio de Fabinutria." />
-        <meta name="author" content="Webmaster Adolfo Bravo Hernández" />
-        <title>
-            Fabinutria
-        </title>
-        <link rel="icon" type="image/png" href="img/fivicon.png"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css"/>
-        
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-        <script src="js/components/header.js" type="text/javascript" defer></script>
-    </head>
-	<body>
-		<div id="container">
-            <div class="row">
-				<div id="header">
-					<nav> <!-- Aqui estamos iniciando la nueva etiqueta nav -->
-						<ul class="nav">
-							<li class="col-12 col-md-1"><a href="">Inicio</a></li>
-							<li class="col-12 col-md-1"><a href="">Servicios &#9660;</a>
-								<ul>
-									<li class="col-12 col-md-12"><a href="">&nbsp;&nbsp;&nbsp;Submenu1</a></li>
-									<li class="col-12 col-md-12"><a href="">&nbsp;&nbsp;&nbsp;Submenu2</a></li>
-									<li class="col-12 col-md-12"><a href="">&nbsp;&nbsp;&nbsp;Submenu3</a></li>
-									<li class="col-12 col-md-12"><a href="">&#9654; Submenu4</a>
-										<ul>
-											<li class="col-12 col-md-12"><a href="">Submenu</a></li>
-											<li class="col-12 col-md-12"><a href="">Submenu2</a></li>
-											<li class="col-12 col-md-12"><a href="">Submenu3</a></li>
-											<li class="col-12 col-md-12"><a href="">Submenu4</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li class="col-12 col-md-1"><a href="">Acerca de &#9660;</a>
-								<ul>
-									<li class="col-12 col-md-12"><a href="">Submenu1</a></li>
-									<li class="col-12 col-md-12"><a href="">Submenu2</a></li>
-									<li class="col-12 col-md-12"><a href="">Submenu3</a></li>
-									<li class="col-12 col-md-12"><a href="">Submenu4</a></li>
-								</ul>
-							</li>
-							<li class="col-12 col-md-1"><a href="">Contacto</a></li>
-						</ul>
-					</nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
-				</div>
-				<div class="row">
-					<section id="content" class="col-12 col-md-10 align-items-center">
-						<article class="article">
-							<p>Las mejores <b>ensaladas</b></p>
-						</article>
-					</section>
-				</div>
-			</div>
-		 </div>		
-		
-	</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Fabinutria</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Acerca de mi</h4>
+              <p class="text-muted">Detalles ricos, saludables y hechos con amor ✨ Soy nutrióloga y emprendedora; preparo ensaladas, postres, bocadillos y mesas de regalo que combinan sabor, estilo y calidad para cualquier ocasión.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contacto</h4>
+              <ul class="list-unstyled">
+                <li><a aria-label="Chat on WhatsApp" href="https://wa.me/525512219240"><img alt="Chat on WhatsApp" src="/img/WhatsAppButtonSmall.png" />WthatsApp</a></li>
+                <li><a href="https://www.facebook.com/rica.mordidita.sabores.detalles" class="text-white">Like on Facebook</a></li>
+                <li><a href="mailto:ricamordidita09@gmail.com">ricamordidita09@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <strong>Productos y servicios</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Para hacer una ocasión especial</h1>
+          <p class="lead text-muted">Ofrezco una variedad de productos ideales para cualquier ocasión: ensaladas, tortas, bocadillos y mesas de dulces, preparados con dedicación y excelente presentación.
+                                    Perfectos para reuniones, fiestas, cumpleaños, eventos escolares, empresariales y celebraciones especiales.
+                                    ¡Haz de tu evento algo delicioso y especial!</p>
+          <p>
+            <a aria-label="Chat on WhatsApp" href="https://wa.me/525512219240" style="margin-right: 20px;"><img alt="5512219240" src="/img/WhatsAppButtonSmall.png" />WthatsApp</a>
+            <a href="mailto:ricamordidita09@gmail.com"><img alt="Chat on WhatsApp" src="/img/sobrecorreo.png" style="width: 30px;" />ricamordidita09@gmail.com</a>
+          </p>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="/img/ensaladas.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Ensaladas" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Ensaladas: Disfruta de opciones frescas, deliciosas y perfectas para cualquier ocasión.
+Contamos con variedad de ensaladas preparadas con ingredientes frescos y excelente presentación.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Menú</button>
+                    </div>
+                    <small class="text-muted">Salads</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Nutrición" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><strong>Nutrición:</strong> Alimentación equilibrada y saludable para mejorar tu bienestar y energía diaria.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Menú</button>
+                    </div>
+                    <small class="text-muted">Nutrition</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Desayunos" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><strong>Desayunos:</strong> Opciones deliciosas y completas para comenzar el día con el mejor sabor.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Menú</button>
+                    </div>
+                    <small class="text-muted">Breakfasts</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Postres" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><strong>Postres:</strong> Dulces irresistibles preparados para disfrutar cada momento especial.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Menú</button>
+                    </div>
+                    <small class="text-muted">Desserts</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Eventos" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><strong>Eventos:</strong> Servicios gastronómicos pensados para hacer inolvidable cualquier celebración.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Menú</button>
+                    </div>
+                    <small class="text-muted">Events</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Cenas navideñas" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><strong>Cenas navideñas:</strong> Menús especiales llenos de tradición y sabor para compartir en Navidad.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Menú</button>
+                    </div>
+                    <small class="text-muted">Christmas Dinners</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Bocadillos" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><strong>Bocadillos:</strong> Snacks prácticos y sabrosos ideales para cualquier ocasión.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Menú</button>
+                    </div>
+                    <small class="text-muted">Snacks</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Desayunos sorpresa" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><strong>Desayunos sorpresa:</strong> Detalles únicos y personalizados para alegrar el inicio del día.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Menú</button>
+                    </div>
+                    <small class="text-muted">Surprise Breakfasts</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Panaderia" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><strong>Panadería:</strong> Panes y productos artesanales horneados con frescura y calidad.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Menú</button>
+                    </div>
+                    <small class="text-muted">Bakery</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Inicio</a>
+        </p>
+        <p>Productos y servicios Fabinutria</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="/assets/js/vendor/popper.min.js"></script>
+    <script src="/dist/js/bootstrap.min.js"></script>
+    <script src="/assets/js/vendor/holder.min.js"></script>
+  </body>
 </html>
