@@ -37,3 +37,23 @@ footer p {
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.navbar {
+  background-color: #008080 !important;
+}
+
+
+
+.navbar {
+  background-color:  #008080 !important;
+}
+
+/* Custom class for a specific hex color */
+.collapse.show {
+    background-color: #008080;
+}
+
+/* Custom class for a specific hex color */
+.collapsing {
+    background-color: #008080;
+}
